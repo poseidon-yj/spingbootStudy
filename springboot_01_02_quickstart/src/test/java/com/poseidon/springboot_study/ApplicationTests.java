@@ -1,10 +1,10 @@
-package com.poseidon.springboot_01_02_quickstart;
+package com.poseidon.springboot_study;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Springboot0102QuickstartApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

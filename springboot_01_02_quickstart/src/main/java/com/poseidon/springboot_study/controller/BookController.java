@@ -1,4 +1,4 @@
-package com.poseidon.springboot_01_02_quickstart.controller;
+package com.poseidon.springboot_study.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
