@@ -1,0 +1,28 @@
+country: china
+
+user:
+  age: 18
+
+books:
+  -
+    name: haha
+    price: 11
+  -
+    name: xixi
+    price: 22
+
+baseDir: /User/Poseidon
+
+# yml中使用变量
+dir:
+  temp: ${basedir}/temp
+  # yml中使用转义字符需要双引号包裹
+  temp1: "${basedir}\t1\t2"
+
+
+# 创建对象封装以下信息
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/mysqldb
+  username: root
+  password: root123
